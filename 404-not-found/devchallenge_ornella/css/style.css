@@ -1,0 +1,172 @@
+/* 404 Not found */
+header{
+    position: absolute;
+    width: 133px;
+    height: 25px;
+    top: 40px;
+    left: 77px;
+}
+
+header p{
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+/* Combined shape */
+img{
+    width: 539.22px;
+    height: 447.43px;
+    top: 265px;
+    position: absolute;
+    left: 5.35%;
+    right: 57.21%;
+    top: 24.54%;
+    bottom: 34.03%;
+}
+
+/* I have bad news for you */
+p:nth-child(2){
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    left: 735px;
+    top: 265px;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+
+/* The page you are looking for might be removed or is temporarily unavailable */
+p:nth-of-type(2){
+    width: 381px;
+    height: 108px;
+    position: absolute;
+    left: 736px;
+    top: 491px;
+    line-height: 36px;
+    font-size: 24px;
+    letter-spacing: -0.035em;
+    color: #4f4f4f;
+}
+
+/* rectangle 71 */
+a{
+    text-decoration: none;
+    width: 216px;
+    height: 68px;
+    position: absolute ;
+    left: 740px;
+    top: 663px;
+    background: #333333;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
+/* your name @ DevChallenges.io */
+small{
+    position: absolute ;
+    width: 226px;
+    height: 17px;
+    left: 607px;
+    top: 1024px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+
+/* 404 page mobile */
+@media screen and (max-width : 1024px)
+{
+    body
+    {
+        width: 375px;
+        height: 949px;
+        position: relative;
+        border-radius: 12px;
+        box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
+        background: #b3b0b0;
+    }
+
+    header p{
+        font-family: 'Inconsolata', monospace;
+        font-size: 24px;
+        line-height: 25px;
+        letter-spacing: -0.08em;
+        text-transform: uppercase;
+        color: #333333;
+        transform: translate(-30%);
+    }
+    
+
+    img{
+        width:286.83px;
+        height: 220.35px;
+        top: 109px;
+        position: absolute;
+        left: 11.73%;
+        right: 11.78%;
+        top: 15.49%;
+        bottom: 65.29%;
+    }
+
+    p:nth-child(2){
+        position: absolute;
+        width: 350px;
+        height: 142px;
+        left:24px;
+        top: 407px;
+        font-family: 'Space Mono', monospace;
+        font-weight: bold;
+        font-size:48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+        color: #333333;
+    }
+    
+    p:nth-of-type(2){
+        width: 328px;
+        height: 81px;
+        position: absolute;
+        left: 23px;
+        top: 579px;
+        line-height: 27px;
+        font-size: 18px;
+        letter-spacing: -0.035em;
+        color: #4f4f4f;
+    }
+
+    a{
+        text-decoration: none;
+        width: 228px;
+        height: 81px;
+        position: absolute ;
+        left: 63px;
+        top: 700px;
+        background: #333333;
+        color: white;
+        text-align: center;
+        line-height: 70px;
+    }
+
+    small{
+        position: absolute ;
+        width: 126px;
+        height: 17px;
+        left: 110px;
+        top: 850px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7px;
+        line-height: 17px;
+        color: #333333;
+    }
+
+}
